@@ -1,0 +1,71 @@
+body{
+  background-color:#f6f6f6;
+}
+*{
+  font-size:"Trebuchet MS";
+}
+header{
+  display:flex; 
+  justify-content:center;
+  align-items: center;
+}
+header,.recipe-list{
+  flex-direction:column;
+}
+
+header, main{
+  width:100%; height:auto;
+}
+main{
+  display:grid; 
+  align-items: flex-start;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top:20px;
+}
+h1{
+  font-size: 4rem;
+}
+.recipe-list{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  height: 600px;
+}
+
+.recipe-list p{
+  text-align: center;
+  color:black;
+  font-weight:bold;
+  font-size:1.5rem;
+  word-wrap: break-word;
+  width:280px;
+  margin:20px;
+
+}
+
+.photo-container img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 300ms;
+}
+
+.photo-container {
+  width:400px;
+  height: 430px;
+  overflow: hidden;
+  border-radius:15px;
+  background-color: black;
+  box-shadow: -5px -5px 10px rgba(181, 181, 181, 0.408),
+  5px 5px 10px rgba(100, 92, 92, 0.751);
+}
+
+
+.photo-container img:hover{
+  transform: scale(1.4);
+  opacity: 80%;
+  background-color: black;
+}
+
