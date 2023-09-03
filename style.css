@@ -24,7 +24,7 @@ main{
   padding-top:20px;
 }
 
-@media screen and (min-width:500px) and (max-width:850px) {
+@media screen and (min-width:0px) and (max-width:850px) {
   main{
     grid-template-columns: 1fr;
   }
