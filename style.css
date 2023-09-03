@@ -82,4 +82,7 @@ h1{
   opacity: 80%;
   background-color: black;
 }
+.photo-container img:focus,.photo-container img:visited{
+  overflow: hidden;
+}
 
