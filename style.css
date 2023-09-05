@@ -42,7 +42,7 @@ header input{
   border-radius: 20px;
   padding: 20px 15px ;
   font-weight:500;
-  box-shadow: 0 1px 8px rgba(107, 107, 107, 0.393)  inset;
+  box-shadow: 1px 1px 8px rgba(107, 107, 107, 0.393) inset;
 }
 header input:focus{
   border:none;
